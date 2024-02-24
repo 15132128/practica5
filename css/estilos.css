@@ -1,0 +1,57 @@
+
+:root{
+    --fondoDiv: rgb(247, 156, 247);
+    --colorTexto: rgb(0, 0, 0);
+    --colorPeligro: rgb(247, 0, 255);
+    --colorcoca: rgb(255, 0, 140) ;
+    --gatopanson: rgb(58, 42, 57);
+    font-family: Arial; 
+}
+li {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    
+}
+li:hover {
+    background-color: var(--colorPeligro);
+    color: var(--colorTexto);
+    
+}
+.Inicio:hover {
+    background-color: rgb(46, 133, 231);
+    color: var(--colorTexto);
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    color: var(--colorTexto);   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.Inicio{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+    font-family: Arial;
+}
+.color{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+    display: table;
+    text-align: center;
+    font-family: Arial;
+}
+.titulo{
+    text-align: center;
+    color:var(--gatopanson);
+}
+.subtitulo{
+    text-align: center;
+    color:var(--colorPeligro);
+}
